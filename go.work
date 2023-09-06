@@ -1,0 +1,7 @@
+go 1.20
+
+use (
+	./start_grpc
+	./benchmark_grpc
+	./benchmark_rest
+)
