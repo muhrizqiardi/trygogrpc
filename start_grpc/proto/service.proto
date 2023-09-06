@@ -1,0 +1,12 @@
+service FactorialService {
+  rpc FindFactorial (FindFactorialRequest) returns (FindFactorialReply) {}
+}
+
+message FindFactorialRequest {
+  int32 input = 1; 
+}
+
+message FindFactorialReply {
+  int32 result = 1; 
+}
+
