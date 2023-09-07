@@ -4,4 +4,6 @@ use (
 	./start_grpc
 	./benchmark_grpc
 	./benchmark_rest
+	./start_grpc_client
+	./start_grpc_server
 )
